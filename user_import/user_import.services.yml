@@ -1,0 +1,8 @@
+services:
+
+  # Service that process handles importing multiple users to the site.
+  user_import:
+    class: \Drupal\user_import\Importer\UserImport
+    arguments: ['@entity_type.manager']
+  user_import.form:
+    class: \Drupal\user_import\Form\UserImportForm

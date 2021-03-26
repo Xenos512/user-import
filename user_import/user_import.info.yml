@@ -1,0 +1,7 @@
+name: Import User
+description: Use this module to import multiple users from a CSV file containing first name, last name and email address.
+core: 8.x
+type: module
+
+dependencies:
+  - user

@@ -1,0 +1,7 @@
+user_import.page:
+  path: '/admin/people/import/users'
+  defaults:
+    _controller: '\Drupal\user_import\Controller\UserImportController::importPage'
+    _title: 'Upload CSV file to import new users.'
+  requirements:
+    _permission: 'administer user import'
